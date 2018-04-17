@@ -20,10 +20,6 @@ public:
 
 	int ViewID();
 
-	void AjustCost( double newCost);
-
-	void AjustQuantity( int newQuantity );
-
 	Info();
 	
 	~Product();

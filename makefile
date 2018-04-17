@@ -6,7 +6,7 @@ LDLIBS =
 
 SRCS =  Product.cpp \
 		Inventory.cpp \
-		UserInterface.cpp
+		driver.cpp
 			 
 OBJS = $(subst .cpp,.o,$(SRCS))
 

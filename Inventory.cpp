@@ -56,16 +56,5 @@ int Inventory::ViewID(int i)
 	return InventoryList[i].ViewID();
 }
 
-
-void AjustPrice(int i, double newprice )
-{
-	InventoryList[i].AjustPrice(newprice);
-}
-
-void AjustQuantity(int i, int newquantity )
-{
-	InventoryList[i].AjustQuantity(newquantity);
-}
-
 Inventory::~Inventory()
 {	}

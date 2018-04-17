@@ -23,11 +23,7 @@ public:
 	double ViewPrice(int i);
 
 	int ViewID(int i);
-
-	void AjustPrice(int i, double newprice );
-
-	void AjustQuantity(int i, int newquantity );
-
+	
 	~Inventory();
 
 private:

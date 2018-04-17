@@ -45,17 +45,5 @@
 		return mProductID;
 	}
 
-	void Product::AjustCost( double newCost)
-	{
-		mCost = newCost;
-	}
-
-	void Product::AjustQuantity( int newQuantity )
-	{
-		mQuantity = newQuantity;
-	}
-
 	Product::~Product()
 	{	}
-
-
